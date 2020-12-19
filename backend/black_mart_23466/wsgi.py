@@ -11,6 +11,6 @@ import os
 
 from django.core.wsgi import get_wsgi_application
 
-os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'black_mart_23466.settings')
+os.environ.setdefault("DJANGO_SETTINGS_MODULE", "black_mart_23466.settings")
 
 application = get_wsgi_application()
